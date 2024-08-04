@@ -284,4 +284,4 @@ if __name__ == "__main__":
         print(f"{brain.character_name}: {response}")
 
         feedback = input("Was this response helpful? (yes/no): ")
-        brain.collect_feedback(user_id, user_input, response, 'positive' if feedback.lower() == 'yes' else 'negative')]
+        brain.collect_feedback(user_id, user_input, response, 'positive' if feedback.lower() == 'yes' else 'negative')
